@@ -1,0 +1,715 @@
+*{
+    
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: "Eurostile Extended";
+    overflow-x: hidden;
+  }
+  
+
+
+  
+
+.hero{
+    background-image: url(../img/fon-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0px 0px 30px 30px;
+    
+}
+
+
+
+.first-navbar{
+    display: none;
+}
+
+.second-navbar{
+    display: none;
+}
+
+.FIND{
+    
+    font-size: 40px;
+    display: flex;
+align-items: center;
+}
+
+.premium{
+    font-weight: 500;
+}
+
+.end-first-page{
+    margin-top: 200%;
+    margin-left: 32%;
+}
+
+
+.btn-GO{
+    width: 230.05px;
+height: 33px;
+    font-size: 12px;
+     line-height: 150%;
+     margin-right: 50%;
+}
+
+
+.btn-GO:hover{
+    outline: 0cap;
+    
+}
+
+
+.back-color-fon{
+    background-color: #F5F5F5;
+}
+
+.sale{
+    background-image: url(../img/CarsForSale.svg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 280px;
+    border-radius: 15px;
+    
+   
+}
+
+.parts{
+    background-image: url(../img/Autopart.svg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.servicing{
+    background-image: url(../img/Servicing.svg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.servicing-1{
+    background-image: url(../img/Servicing.svg);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 280px;
+    border-radius: 15px;
+}
+
+.cars-parts{
+   width: 232px;
+   font-size: 20px;
+}
+
+.btn-more-sale{
+    position: relative;
+    top: 60%;
+    left: 70%;
+ }
+
+.btn-more{
+   position: relative;
+   top: 60%;
+   left: 70%;
+}
+
+.more{
+    width: 100px;
+  
+background: rgba(255, 255, 255, 0.01);
+border: 1px solid #4F4F4F;
+backdrop-filter: blur(2px);
+border-radius: 6px;
+}
+
+.content-hidden{
+    display: none;
+}
+
+.invis{
+    display: none; 
+}
+
+.btn-switch-1{
+   
+border: solid 1px #4071CB;
+border-radius: 4px 0px 0px 4px;
+width: 90%;
+font-size: 8px;
+line-height: 130%;
+margin-left: 10.4%;
+}
+
+.btn-switch-2{
+    border: solid 1px #4071CB;
+    border-radius: 0px 4px 4px 0px;
+    width: 90%;
+    font-size: 8px;
+    line-height: 130%;
+   margin-right: 10%;
+    }
+
+.btn-switch-1:hover{
+    
+    background-color: #4071CB;
+    color: #FFFFFF;
+}
+
+.btn-switch-2:hover{
+    background-color: #4071CB;
+    color: #FFFFFF;
+}
+
+
+
+.btn-all{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   gap: 10px;
+    border: solid 2px #4071CB;
+    color: #4071CB;
+    width: 185px;
+    height: 40px;
+    border-radius: 8px;
+    
+}
+
+.btn-all:hover{
+    background-color: #4071CB;
+    color: #F1F0EB;
+}
+
+.logo-auto{
+    width: 180%;
+}
+
+.mercedes-brand{
+    width: 11%;
+}
+
+
+.state{
+  display:flex ;
+flex-direction: column;
+justify-content: start;
+align-items: end;
+position: relative;
+top: -13%;
+}
+
+
+.car-sell-Lexus{
+    background-image: url(../img/LEXUS-fon.svg);
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+
+.price{
+    border: solid 1px #000000;
+    width: 285px;
+     height: 45px;
+     border-radius: 8px;
+}
+
+.price:hover{
+    background-color: #4071CB;
+    color: #F1F0EB;
+}
+
+
+.Fon-hover:hover{
+background-color: white;
+}
+
+.car-sell-Pajero{
+    background-image: url(../img/Mitsubishi-fon.svg);
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 10%;
+    
+}
+
+.state-1{
+    display:flex ;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    position: relative;
+    top: -20%;
+}
+
+.car-sell-MB-G{
+    background-image: url(../img/Mercedes-fon.svg);
+    background-repeat: no-repeat;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.btn-all-1{
+   border: solid 1px #4071CB;
+     color: #4071CB;
+     width: 325px;
+     height: 40px;
+     border-radius: 8px;
+     margin-left: 3%;
+     
+}
+
+.btn-all-1:hover{
+    background-color: #4071CB;
+    color: #F1F0EB;
+}
+
+
+.btn-aplication{
+    border: solid 1px #010101;
+    color: #010101;
+    width: 285px;
+     height: 45px;
+     border-radius: 8px;
+}
+
+.service-cards{
+    display: none;
+}
+
+.audi-back-fon{
+    background-image: url(../img/Audi-back.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 780px;
+    position: relative;
+    right: 1%;
+   
+}
+
+
+
+.accordion-position{
+padding-top: 45%;
+width: 315px;
+height: 220px;
+border-radius: 10px;
+  
+ 
+}
+
+.accordion-style{
+width: 315px;
+height: 220px;
+
+border-radius: 10px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+   
+}
+
+.accordion-button:not(.collapsed){
+    box-shadow: none;
+    border-color: rgba(0,0,0,.125);
+    background-color: white;
+    color: black;
+}
+
+.line{
+    padding-top: 20%;
+}
+
+.btn-callback-size{
+width: 360px;
+height: 55px;
+border-radius: 6px;
+}
+
+
+.size-for-footer-text{
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+}
+
+
+.txt-size{
+    font-size: 10px;
+    line-height: 13px;
+}
+
+
+.Lexus-LX500d-main{
+    background-image: url(../img/Lexus\ LX500d-main.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 270px;
+    border-radius: 15px;
+    margin-left: 2.5%;
+    
+}
+
+.btn-order{
+    border: 1px solid #4F4F4F;
+    border-radius: 8px;
+    color: #010101;
+    width: 340px;
+    height: 50px;
+    
+}
+
+.content-hidden{
+    display: none;
+    
+}
+
+.hidden{
+    display: none;
+}
+
+.text-size{
+    font-size: 14px;
+}
+
+.color-for-element{
+    color: #4071CB;
+}
+
+
+.style-car{
+width: 142px;
+height: 50px;
+border: 1px solid #D9D9D9;
+border-radius: 3px;
+padding: 10px;
+
+}
+
+.links{
+    text-decoration: none;
+    color: #000000;
+}
+
+.M-Pajero-main{
+    background-image: url(../img/Mitsubishi.Pajero.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 270px;
+    border-radius: 15px;
+    margin-left: 2.5%;
+    
+}
+
+.Lexus-ux200-main{
+    background-image: url(../img/Lexus\ UX\ UX200.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 270px;
+    border-radius: 15px;
+    margin-left: 2.5%;
+}
+
+.Mercedes-G-main{
+    background-image: url(../img/Mercedes-Benz\ G-Class.png);
+    background-repeat: no-repeat;
+    width: 360px;
+    height: 270px;
+    border-radius: 15px;
+    margin-left: 2.5%;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+    .first-navbar{
+        display: none;
+    }
+    .premium{
+       font-size: 185%;
+       font-weight: 500;
+    }
+    .btn-GO {
+       margin-left: 10%;
+    }
+.btn-all-1{
+    margin-left: 30%;
+}
+.audi-back-fon{
+    background-image: url(../img/Audi-back-lg.png);
+    background-repeat: no-repeat;
+    width: 690px;
+   height: 700px;
+  margin-left: 1%;
+  border-radius: 30px;
+   
+}
+
+.accordion-position{
+    position: relative;
+    bottom: 40%;
+}
+
+.card-position{
+    width: 47%;
+    margin-right: 2%;
+    padding-left: 1%;
+}
+
+
+
+.main-car{
+    background-image: url(../img/Lexus\ LX500d-main-lg.png);
+    background-repeat: no-repeat;
+    width: 780px;
+ height: 510px;
+ border-radius: 30px;
+position: relative;
+right: 2%;
+}
+
+
+
+
+}
+@media (min-width: 1024px) {
+    
+
+    .first-navbar{
+        display: contents;
+    }
+
+    .second-navbar{
+        display: contents;
+    }
+
+    
+
+    
+    .audi-back-fon{
+        background-image: url(../img/Audi-back-lg.png);
+        background-repeat: no-repeat;
+        width: 1340px;
+       height: 700px;
+      margin-left: 1%;
+      border-radius: 30px;
+       
+    }
+
+    
+
+   
+
+
+    .accordion-position{
+        position: relative;
+        bottom: 80%;
+        left: 25%;
+    }
+
+   
+
+  
+
+    .sale{
+        background-image: url(../img/CarsForSale-lg.svg);
+        background-repeat: no-repeat;
+        
+        height: 640px;
+        border-radius: 10px;
+       
+    }
+    
+    .parts{
+        background-image: url(../img/Autopart-lg.svg);
+        background-repeat: no-repeat;
+        width: 470px;
+height: 308px;
+        border-radius: 10px;
+        
+      
+    }
+    
+    .servicing{
+        background-image: url(../img/Servicing-lg.svg);
+        background-repeat: no-repeat;
+        width: 470px;
+height: 308px;
+        border-radius: 10px;
+        position: relative;
+        left: 107%;
+        top: 34.5%;
+    }
+
+    .servicing-1{
+        background-image: url(../img/Servicing-lg.svg);
+        background-repeat: no-repeat;
+        width: 470px;
+        height: 308px;
+        border-radius: 15px;
+    }
+
+    
+    
+.btn-more-sale{
+position: relative;
+top: 80%;
+left: 70%;
+}
+
+.btn-more{
+    position: relative;
+    left: 70%;
+}
+
+
+
+.FIND{
+    width: 744px;
+height: 64px;
+font-style: normal;
+font-weight: 700;
+font-size: 49px;
+line-height: 130%;
+
+}
+
+.premium{
+    width: 800px;
+    height: 51px;
+    font-weight: 500;
+    margin-top: 30px;
+font-style: normal;
+font-weight: 400;
+font-size: 39px;
+line-height: 130%;
+}
+
+
+
+
+
+
+.card-position{
+    width: 47%;
+    margin-right: 2%;
+    padding-left: 1%;
+}
+
+.Lexus-LX500d-main{
+  
+    display: none;
+
+}
+
+
+
+}
+
+@media (min-width: 1440px) {
+    
+
+    .sale{
+        background-image: url(../img/CarsForSale-lg.svg);
+        background-repeat: no-repeat;
+        width: 658px;
+        height: 640px;
+        border-radius: 10px;
+       
+    }
+    
+    .parts{
+        background-image: url(../img/Autopart-lg.svg);
+        background-repeat: no-repeat;
+        width: 658px;
+height: 308px;
+        border-radius: 10px;
+        
+      
+    }
+
+    
+    
+    .servicing{
+        
+        background-image: url(../img/Servicing-lg.svg);
+        background-repeat: no-repeat;
+        width: 640px;
+        height: 308px;
+        border-radius: 10px;
+        position: relative;
+        left: 104%;
+        top: 34.5%;
+    }
+
+ 
+
+   
+
+   
+
+    .content-hidden{
+        display: contents;
+    }
+
+    .btn-all-1{
+        display: none;
+    }
+    
+
+     .btn-aplication{
+        position: relative;
+        left: 50%;
+        bottom: 30%;
+    }
+
+
+    .size-card-service{
+        width: 315px;
+        height: 325px;
+       background-color: rgba(255, 255, 255, 0.7);
+       border-radius: 10px;
+       backdrop-filter: blur(14.5px);
+       
+    }
+   
+     .service-cards{
+         display: flex;
+         position: relative;
+         top: 48%;
+        gap: 15px;
+         
+          
+          
+     }
+
+    .btn-callback{
+       
+        position: relative;
+        left: 55%;
+        bottom: 35%;
+        
+        
+    }
+    .btn-callback-size {
+        width: 250px;
+        height: 55px;
+    }
+    
+  
+}
+
